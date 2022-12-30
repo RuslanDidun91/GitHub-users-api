@@ -3,8 +3,6 @@ var router = express.Router();
 
 const fetch = require('node-fetch');
 
-
-
 const token = process.env.GITHUB_TOKEN;
 const ROOT_URL = 'https://api.github.com';
 
